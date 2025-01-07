@@ -1,0 +1,133 @@
+/* Common CSS Start Here */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.2;
+    /* Adjusted for better readability */
+}
+
+img {
+    vertical-align: middle;
+}
+
+#container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* Common CSS End Here */
+
+/* Hero Section Start Here */
+#Hero-section {
+    background: linear-gradient(to top, rgba(9, 9, 9, 0.9), rgba(16, 16, 16, 0)),
+        url('../assets/hero-bg.png');
+
+    padding-top: 260px;
+    padding-bottom: 260px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-family: 'Work Sans', sans-serif;
+    /* Added fallback font */
+    font-weight: 700;
+    /* Fixed capitalization */
+    line-height: 80px;
+    font-size: 64px;
+    /* Fixed capitalization */
+    color: rgb(255, 255, 255);
+    padding: 0px 100px;
+}
+
+.sub_title {
+    font-family: 'Work Sans', sans-serif;
+    /* Added fallback font */
+    font-weight: 600;
+    /* Fixed capitalization */
+    font-size: 32px;
+    /* Fixed capitalization */
+    line-height: 38px;
+}
+
+.title-para {
+    font-family: Work Sans Font;
+    font-weight: 600;
+    Font-size: 20px;
+    line-height: 23px;
+    color: rgb(255, 255, 255);
+    padding: 0px 160px;
+}
+
+.hero-content button {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    padding: 12px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: 0;
+}
+.card-box-head{
+    margin: 0 auto;
+    text-align: center;
+}
+.card-box-img{
+    display: flex;
+    gap: 24px;
+}
+#card-box{
+    text-align: center;
+}
+.btn{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    padding: 12px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: 0;
+   text-align: center;
+}
+.offer-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.offer-wrapper p{
+    padding: 0 60px;
+}
+#card{
+    text-align: center;
+    margin: 0 auto;
+}
