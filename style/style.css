@@ -131,3 +131,14 @@ img {
     text-align: center;
     margin: 0 auto;
 }
+.about-wrapper{
+    display: flex;
+    gap: 25px;
+}
+.social{
+    display: flex;
+    gap: 10px;
+}
+.about-content{
+    padding-top: 136px;
+}
