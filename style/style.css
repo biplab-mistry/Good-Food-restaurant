@@ -97,18 +97,17 @@ img {
     background: rgb(82, 195, 3);
     border: 0;
 }
-.card-box-head{
-    margin: 0 auto;
-    text-align: center;
-}
-.card-box-img{
+
+.card-box-img {
     display: flex;
-    gap: 24px;
+    justify-content: space-between;
 }
-#card-box{
+
+#card-box {
     text-align: center;
 }
-.btn{
+
+.btn {
     color: rgb(255, 255, 255);
     font-family: Work Sans;
     font-size: 20px;
@@ -118,27 +117,58 @@ img {
     border-radius: 8px;
     background: rgb(82, 195, 3);
     border: 0;
-   text-align: center;
+    text-align: center;
 }
-.offer-wrapper{
+
+.offer-wrapper {
     display: flex;
     justify-content: center;
 }
-.offer-wrapper p{
+
+.offer-wrapper p {
     padding: 0 60px;
 }
-#card{
+
+#card {
     text-align: center;
     margin: 0 auto;
 }
-.about-wrapper{
+
+.about-wrapper {
     display: flex;
-    gap: 25px;
+    justify-content: space-between;
+    align-items: center;
 }
-.social{
+
+.social {
     display: flex;
     gap: 10px;
 }
-.about-content{
-    padding-top: 136px;
+
+#about-us {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.about-content {
+    padding: 100px;
+}
+
+.about-img {
+    width: 360px;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+#footer {
+    background: linear-gradient(to bottom, rgba(42, 41, 41, 0.849), rgba(79, 77, 77, 0.621)),
+    url('../assets/social-bg.png');    
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
